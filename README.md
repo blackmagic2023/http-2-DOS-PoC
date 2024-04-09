@@ -20,12 +20,12 @@ git clone https://github.com/blackmagic/enjoy_http2_cpu_exhaustion_poc.git
 
 ```bash
 
-cd enjoy_http2_cpu_exhaustion_poc
+cd http-2-DOS-PoC
 ```
 - Run the Python script:
 
 ```bash
-python enjoy_http2_cpu_exhaustion_poc.py
+python tp2con.py
 ```
 -  Follow the prompts to enter the URL of the HTTP/2 endpoint and the number of excessive headers to send.
 
