@@ -42,3 +42,7 @@ This PoC script is for educational and testing purposes only. It should be used 
 About the Vulnerability
 
 The vulnerability in Envoy's HTTP/2 protocol stack allows an attacker to cause CPU exhaustion by sending an excessive number of CONTINUATION frames. This leads to the HTTP/2 endpoint reading arbitrary amounts of header data, potentially resulting in denial-of-service (DoS) conditions. The fix for this vulnerability sets a limit on the amount of excess header frames processed before closing a connection.
+
+## Referrences
+- https://thehackernews.com/2024/04/new-http2-vulnerability-exposes-web.html
+- https://nvd.nist.gov/vuln/detail/CVE-2023-45288
